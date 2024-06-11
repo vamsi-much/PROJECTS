@@ -78,8 +78,8 @@ updateScoreElement();
 
 document.querySelector('.js-result').innerHTML=result;
 
-document.querySelector('.js-move').innerHTML = `You <img class="move-icon" src="amazon/images/${playerMove.toLowerCase()}-emoji.png" alt="${playerMove}"> 
-<img class="move-icon" src="amazon/images/${computerMove.toLowerCase()}-emoji.png" alt="${computerMove}"> Computer`;
+document.querySelector('.js-move').innerHTML = `You <img class="move-icon" src="images/${playerMove.toLowerCase()}-emoji.png" alt="${playerMove}"> 
+<img class="move-icon" src="images/${computerMove.toLowerCase()}-emoji.png" alt="${computerMove}"> Computer`;
 }
 function updateScoreElement(){
 document.querySelector('.js-score')

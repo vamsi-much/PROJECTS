@@ -2,67 +2,20 @@
 <html>
   <head>
     <title>Rock Paper Scissors</title>
-    <style>
-      body{
-        background-color: black;
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
-
-
-      }
-      .title{
-        font-size: 30px;
-        font-weight: bold;
-      }
-
-      .move-icon{
-        height: 50px;
-        
-        
-        
-        
-      }
-      .move-button{
-        background-color: transparent;
-        border: 3px solid white;
-        width: 120px;
-        height: 120px;
-        border-radius: 60px;
-        margin:10px;
-        cursor: pointer;
-
-        
-
-      }
-        .result{
-          font-size: 25px;
-          font-weight:bold;
-          margin-top:50px;
-        }
-        .score{
-          margin-top: 60px;
-        }
-        .reset-score-button{
-          background-color: white;
-          border: none;
-          font-size: 15px;
-          padding: 8px 15px;
-          cursor: pointer;
-
-        }
-
+    <style >
+      
 
     </style>
 
 
-
+<link rel="stylesheet" href="styles\rock-paper-scisors.css">
 
   </head>
   <body>
     <p class="title">Rock Paper Scissors</p>
-    <button class="move-button" onclick="playGame('Rock')" ><img  class="move-icon"src="amazon\images\rock-emoji.png"></button>
-    <button class="move-button" onclick="playGame('paper')" ><img  class="move-icon"src="amazon\images\paper-emoji.png"></button>
-    <button class="move-button" onclick="playGame('scissors')" ><img  class="move-icon"src="amazon\images\scissors-emoji.png"></button>
+    <button class="move-button" onclick="playGame('Rock')" ><img  class="move-icon"src="images\rock-emoji.png"></button>
+    <button class="move-button" onclick="playGame('paper')" ><img  class="move-icon"src="images\paper-emoji.png"></button>
+    <button class="move-button" onclick="playGame('scissors')" ><img  class="move-icon"src="images\scissors-emoji.png"></button>
     
     <p class="js-result"></p>
     <p class="js-move"></p>
